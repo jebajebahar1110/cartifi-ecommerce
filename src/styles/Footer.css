@@ -1,0 +1,104 @@
+/*
+   Footer Styles
+   Team Cartifi
+ */
+
+.footer {
+  width: 100%;
+  background-color: #0f172a;
+  color: #ffffff;
+  margin-top: 50px;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-logo {
+  color: #3b82f6;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer-description {
+  color: #cbd5e1;
+  font-size: 15px;
+  line-height: 1.7;
+  max-width: 650px;
+  margin: 0 auto 25px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 25px;
+}
+
+.footer-links span {
+  cursor: pointer;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.footer-links span:hover {
+  color: #60a5fa;
+}
+
+.footer-line {
+  border: none;
+  height: 1px;
+  background-color: #334155;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.footer-copy {
+  font-size: 14px;
+  color: #e2e8f0;
+  margin-bottom: 8px;
+}
+
+.footer-team {
+  font-size: 13px;
+  color: #94a3b8;
+  font-style: italic;
+}
+
+/* 
+   Responsive Design
+ */
+
+@media (max-width: 768px) {
+
+  .footer {
+    padding: 30px 15px;
+  }
+
+  .footer-logo {
+    font-size: 24px;
+  }
+
+  .footer-description {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .footer-copy {
+    font-size: 13px;
+  }
+
+  .footer-team {
+    font-size: 12px;
+  }
+}
