@@ -1,0 +1,98 @@
+[
+  {
+    "id": 101,
+    "title": "Wireless Bluetooth Headphones",
+    "price": 49.99,
+    "description": "Comfortable wireless headphones with clear sound, soft ear cushions, and long battery life.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+    "rating": {
+      "rate": 4.4,
+      "count": 120
+    }
+  },
+  {
+    "id": 102,
+    "title": "Portable External Hard Drive",
+    "price": 64.99,
+    "description": "Compact external storage device suitable for files, photos, videos, and data backups.",
+    "category": "electronics",
+    "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+    "rating": {
+      "rate": 4.2,
+      "count": 95
+    }
+  },
+  {
+    "id": 103,
+    "title": "Gold Plated Ring",
+    "price": 29.99,
+    "description": "Elegant gold plated ring designed for casual wear and special occasions.",
+    "category": "jewelery",
+    "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.5,
+      "count": 86
+    }
+  },
+  {
+    "id": 104,
+    "title": "Silver Chain Bracelet",
+    "price": 39.99,
+    "description": "Stylish silver chain bracelet with a lightweight and modern design.",
+    "category": "jewelery",
+    "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+    "rating": {
+      "rate": 4.1,
+      "count": 73
+    }
+  },
+  {
+    "id": 105,
+    "title": "Men's Casual Cotton Shirt",
+    "price": 24.99,
+    "description": "Comfortable cotton shirt suitable for everyday and casual wear.",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879_.jpg",
+    "rating": {
+      "rate": 4.0,
+      "count": 110
+    }
+  },
+  {
+    "id": 106,
+    "title": "Men's Lightweight Jacket",
+    "price": 54.99,
+    "description": "A lightweight jacket suitable for travel, outdoor activities, and cool weather.",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+    "rating": {
+      "rate": 4.3,
+      "count": 98
+    }
+  },
+  {
+    "id": 107,
+    "title": "Women's Casual Top",
+    "price": 27.99,
+    "description": "Soft and stylish casual top designed for comfortable everyday use.",
+    "category": "women's clothing",
+    "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+    "rating": {
+      "rate": 4.2,
+      "count": 84
+    }
+  },
+  {
+    "id": 108,
+    "title": "Women's Rain Jacket",
+    "price": 44.99,
+    "description": "Lightweight water-resistant rain jacket with a comfortable fit.",
+    "category": "women's clothing",
+    "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+    "rating": {
+      "rate": 4.4,
+      "count": 102
+    }
+  }
+]
