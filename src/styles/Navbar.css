@@ -1,0 +1,126 @@
+/* ==========================================
+   Navbar Styles
+   Team Cartifi
+========================================== */
+
+.navbar {
+    width: 100%;
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 12px 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .navbar-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .navbar-brand {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .navbar-brand:hover {
+    color: #dbeafe;
+  }
+  
+  .navbar-search {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-search input {
+    width: 100%;
+    max-width: 420px;
+    padding: 12px 15px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 15px;
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  .navbar-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    color: #dbeafe;
+  }
+  
+  .cart-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .cart-count {
+    background-color: #ef4444;
+    color: #ffffff;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  /* ===========================
+     Responsive Design
+  =========================== */
+  
+  @media (max-width: 768px) {
+  
+    .navbar-container {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .navbar-search {
+      width: 100%;
+    }
+  
+    .navbar-search input {
+      max-width: 100%;
+    }
+  
+    .navbar-links {
+      gap: 20px;
+    }
+  
+    .navbar-brand {
+      font-size: 24px;
+    }
+  
+  }
+  
+  @media (max-width: 480px) {
+  
+    .navbar-links {
+      width: 100%;
+      justify-content: space-around;
+    }
+  
+    .navbar-link {
+      font-size: 15px;
+    }
+  
+  }
